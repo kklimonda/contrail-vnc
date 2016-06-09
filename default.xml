@@ -23,7 +23,7 @@
 <project name="contrail-web-storage" remote="github"/>
 <project name="contrail-web-server-manager" remote="github"/>
 <project name="contrail-web-controller" remote="github"/>
-<project name="contrail-web-core" remote="github"/>
+<project name="contrail-web-core" remote="github-kklimonda"/>
 <project name="contrail-webui-third-party" remote="github" path="contrail-webui-third-party"/>
 
 </manifest>

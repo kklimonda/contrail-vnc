@@ -1,6 +1,9 @@
 <manifest>
 <remote name="github" fetch=".."/>
 
+<remote name="github-kklimonda" fetch="https://github.com/kklimonda"/>
+<remote name="github-tcpcloud" fetch="https://github.com/tcpcloud"/>
+
 <default revision="R3.1" remote="github"/>
 
 <project name="contrail-build" remote="github" path="tools/build">
@@ -11,7 +14,7 @@
 <project name="contrail-third-party" remote="github" path="third_party"/>
 <project name="contrail-generateDS" remote="github" path="tools/generateds"/>
 <project name="contrail-sandesh" remote="github" path="tools/sandesh"/>
-<project name="contrail-packages" remote="github" path="tools/packages">
+<project name="contrail-packages" remote="github-tcpcloud" path="tools/packages">
   <copyfile src="packages.make" dest="packages.make"/>
 </project>
 <project name="contrail-nova-vif-driver" remote="github" path="openstack/nova_contrail_vif"/>

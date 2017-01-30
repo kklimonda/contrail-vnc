@@ -25,7 +25,7 @@
 <project name="contrail-web-server-manager" remote="github"/>
 <project name="contrail-web-controller" remote="github"/>
 <project name="contrail-web-core" remote="github"/>
-<project name="contrail-webui-third-party" remote="github" path="contrail-webui-third-party"/>
+<project name="contrail-webui-third-party" remote="github-kklimonda" path="contrail-webui-third-party"/>
 
 </manifest>
 

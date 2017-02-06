@@ -1,5 +1,8 @@
 <manifest>
-<remote name="github" fetch=".."/>
+<remote name="github" fetch="https://github.com/Juniper"/>
+
+<remote name="github-kklimonda" fetch="https://github.com/kklimonda"/>
+<remote name="github-tcpcloud" fetch="https://github.com/tcpcloud"/>
 
 <default revision="refs/heads/master" remote="github"/>
 
